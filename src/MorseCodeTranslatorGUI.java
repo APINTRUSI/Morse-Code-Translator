@@ -18,7 +18,7 @@ public class MorseCodeTranslatorGUI extends JFrame implements KeyListener{
         setDefaultCloseOperation(EXIT_ON_CLOSE);
 
         //changes the color of the background
-        getContentPane().setBackground(Color.decode("#264653"));
+        getContentPane().setBackground(Color.decode("#0F67B1"));
         setLocationRelativeTo(null);//centers
 
         morseCodeController = new MorseCodeController();
